@@ -36,7 +36,7 @@ default_args = {
 
 # Definindo a DAG
 dag = DAG(
-    'dag_ttc',
+    'dag_ttc1',
     default_args=default_args,
     description='Uma DAG simples que consome dados de uma API e escreve em um arquivo',
     schedule_interval=timedelta(days=1),
